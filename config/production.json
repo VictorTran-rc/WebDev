@@ -1,4 +1,7 @@
 {
-    "mongoURI": "mongodb+srv://Vic:Vic123@health.pizco.mongodb.net/<devconnector>?retryWrites=true&w=majority",
-    "jwtSecret": "token"
+  "mongoURI": "mongodb+srv://Vic:Vic123@health.pizco.mongodb.net/<devconnector>?retryWrites=true&w=majority",
+  "jwtSecret": "token",
+  "githubClientId": "ebf4326846987f7e9255",
+  "githubSecret": "7475f174a01a1f869403a602fc6e38a64543a179"
+
 }
