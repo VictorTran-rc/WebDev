@@ -35,9 +35,9 @@ const ProfileItem = ({
                     status
                 } {
                     company && < span > at {
-                            company
-                        } < /span>} <
-                        /p> <
+                        company
+                    } < /span>} < /
+                    p > <
                         p className = 'my-1' > {
                             location && < span > {
                                 location
@@ -48,8 +48,8 @@ const ProfileItem = ({
                             }
                             className = 'btn btn-primary' >
                             View Profile <
-                            /Link> <
-                            /div> <
+                            /Link> < /
+                            div > <
                             ul > {
                                 skills.slice(0, 4).map((skill, index) => ( <
                                     li key = {
@@ -63,8 +63,8 @@ const ProfileItem = ({
                                     /li>
                                 ))
                             } <
-                            /ul> <
-                            /div>
+                            /ul> < /
+                            div >
                         );
                 };
 
